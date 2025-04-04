@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Personal Portfolio</title>
+</head>
+<body>
+<!-- Header Section Navigation -->
+<section id="home">
+    <div class="overlay">
+        <nav class="navbar">
+            <div class="navdiv">
+                <h2><span>M</span>ahlatse</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="content">
+            <p>HELLO THERE, I'M</p>
+            <h1>MAHLATSE MOKHABELA</h1>
+            <input type="text" name="email" placeholder="Enter your email">
+            <button class="getStarted" onclick="alert('Button clicked')">Get Started</button>
+        </div>
+    </div>
+</section>
+<!-- About Me Section -->
+<section id="about">    
+    <div class="container">
+        <div class="myImage">
+            <img src="pic/Hlatsi.jpg" alt="my image">
+        </div>
+            <div class="aboutText">
+                <h2>About Me</h2>
+                <h4>Web Developer</h4>
+                <p class="text">
+                    I am a passionate web developer with a love for creating seamless, responsive, and user-friendly websites. 
+                    With a educational background in Matric, I did online course am self-taught, I specialize in both front-end and back-end development,
+                    bringing ideas to life on the web. I have experience working with a wide variety 
+                    of web technologies, including HTML, CSS, JavaScript, MySQL, Git, GitHub.
+                    I'm always eager to learn and stay up-to-date with the latest industry trends,
+                    and I enjoy experimenting with new frameworks and tools to enhance my projects.
+                    I got into web development after started—self-taught. What started as a hobby has 
+                    grown into a fulfilling career, and I've worked on a variety of projects ranging 
+                    from simple landing pages to full-scale web applications. I love the challenge of 
+                    solving problems and improving the user experience through clean, functional code.
+                    I'm passionate about building intuitive websites and applications that not only look 
+                    great but work flawlessly across different devices. <span class="moreText"> I enjoy creating responsive designs 
+                    that make browsing a smooth experience, and I love working with clients to bring their 
+                    vision to life on the web. Currently, I'm focused on expanding my knowledge on Power Learn 
+                    Project Schoolarship. I'm always open to collaborating on exciting projects,
+                    and I'm looking forward to continuing to grow as a developer.</span>
+                </p>
+                <button class="readMoreBtn">Read More</button>
+            </div>
+    </div>
+</section>
+<!-- Projects Section -->
+<section id="projects">
+    <div class="project-container">
+        <div class="project1">
+            <img src="pic/project1.jpg" alt="Project 1 Screenshot">
+        </div>
+            <div class="project-card">
+                <h2>Latest Projects</h2>
+                <h3>Weather App</h3>
+                <p>
+                    This Weather App allows users to view current weather conditions and forecasts for their location or any city worldwide. 
+                    By integrating a third-party weather API, this app fetches real-time weather data and displays it in an easy-to-read format. 
+                    The app provides users with essential information such as temperature, humidity, wind speed, and a short weather description.
+                    Technically, the app is built using HTML, CSS, JavaScript and the OpenWeatherMap API.
+                    Challenge is to handle asynchronous data from the APi, and the solution is to use JavaScript's fetch method to make asynchronous API 
+                    requests and implemented promises to handle the data as it arrives. Another challenge is to manage cross-browser compatibility and ensure
+                    a smooth user experience on both mobile and demobile and desktop, and the solution is to use responsive design techniques with CSS media 
+                    queries to ensure the layout adapts well on different screen sizes.
+                </p>
+                <a href="https://github.com/Mahlatsemok/Weather-app" target="_blank">View Code</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project2">
+                <div class="project2-container">
+                    <img src="pic/project2.jpg" alt="Project 2 Screenshot">
+                </div>
+                    <div class="project2-card">
+                        <h2>World Clock App</h2>
+                        <p>
+                            This World Clock App allows users to view the current time in multiple cities around the world. Whether you need to know the time in New York, 
+                            Tokyo, London, or any other city, this app lets users select cities and instantly see the current time in each location. It also displays a list of cities in a neat,
+                            user-friendly interface, making it easy for travelers, remote teams, or anyone with global connections to stay on top of different time zones.
+                            Technically the app is built using HTML, CSS, JavaScript, and a time zone API (like WorldTimeAPI) to fetch current time and timezone data for each city.
+                            The clock updates automatically to display the current time without needing to refresh the page. Search Functionality users can search for a specific city 
+                            and add it to their list of displayed cities. Challenge is integrating time zone data and dealing with daylight saving time (DST) changes, and solution is
+                            used an API like TimeZoneDB or WorldTimeAPI that automatically accounts for daylight saving time, ensuring that the displayed times are always accurate. 
+                            Another Challenge is ensuring performance and speed when displaying multiple cities at once, Solution is optimized API calls and used caching techniques
+                            to minimize the number of requests and reduce loading times for users.
+                        </p>
+                        <a href="https://github.com/Mahlatsemok/World-clock-app.git" target="_blank">View Code</a>
+                    </div>
+            </div>
+    </div>
+</section>
+<!-- Interests Section-->
+<section id="interests">
+    <div class="interests-content">
+        <div class="fortuImage">
+            <img src="pic/Fortu.jpg">
+        </div>
+            <div class="interests-container">
+                <h2>Interests</h2>
+                <p>
+                    What excites me most about the tech world is its constant evolution. There's always something new to learn—whether it's a cutting-edge framework, 
+                    a fresh approach to web design, or an emerging technology that can change the way we interact with the web. This dynamic environment keeps me motivated and fuels my curiosity.
+                    I'm particularly interested in Full-Stack Development: I'm continually expanding my knowledge of both front-end and back-end development, which allows me to build more complete
+                    and versatile applications. I find it exciting to work across the full stack and understand how every part of the system fits together.
+                    These interests keep me motivated and help shape the direction of my career as I continue to grow in this ever-changing field.
+                </p>
+            </div>
+    </div>
+</section>
+<!-- Educational Background -->
+<section id="education">
+    <div class="educations">
+        <h3>Educational Background</h3> 
+        <p>
+            Grade 12 Completion. I graduated from Mmanotshe Moduane Secondary School. Although my formal education ends at Grade 12, I've always been passionate about learning and have taken 
+            the initiative to further develop my skills in web development through various self-learning platforms and real-world projects. Completed courses in HTML, CSS, JavaScript, on SheCode.
+            I gained hands-on experience building personal projects such as Weather App, World Clock App, and Poem Genarator App. I did many online course. Continuously enhancing my skills in Power Learn Project doing Full-Stack Development.
+        </p>
+            <div class="skill">
+                <h5>Skills</h5>
+            </div>
+                <div class="skills">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-git"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                    <div class="education-btn">
+                        <a href="cv/CVv.pdf" download="CVv" class="download-cv-btn">Download My CV</a>
+                    </div>
+    </div>
+</section>
+<!-- Contact Me Form -->
+<section id="contact">
+    <div class="contactMe">
+        <h4>Contact Me</h4>
+    </div>
+    
+        <form action="/submit" method="post" class="form-input">
+            <div class="formInput">
+                <input type="text" id="name" name="name" placeholder="Enter Your Name">
+                <input type="email" id="email" name="email" placeholder="Enter Your Email">
+                <br>
+                <input type="number" id="number" name="number" placeholder="Enter Your Phone Number">
+                <input type="subject" id="subject" name="subject" placeholder="Email subject">
+            </div>
+        </form>
+        <form action="/subnit" method="post">
+                <div class="textarea">
+                    <textarea id="message" name="message" cols="110" rows="25" required placeholder="Write Your Message"></textarea>
+                </div>
+                    <div class="send-message">  
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </div>
+         </form>           
+</section>
+<script src="script.js"></script>
+</body>
+</html>
